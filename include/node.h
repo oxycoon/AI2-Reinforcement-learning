@@ -1,6 +1,8 @@
 #ifndef NODE_H
 #define NODE_H
 
+#include <iostream>
+
 class Node
 {
 public:
@@ -9,5 +11,6 @@ public:
 	
 private:
 	double reward_;
+	
 }
 #endif // NODE_H
