@@ -1,5 +1,7 @@
 #include "agent.h"
 
+#include <iostream>
+
 Agent::Agent(int qSize)
 {
 	qSize_ = qSize;
