@@ -9,12 +9,14 @@ public:
 	void episode(int initState);
 	void chooseAction();
 	int getRandomAction(int upper, int lower);
+	int updateReward(int newState);
+	int maximum(int state, bool returnIndex);
 	
 	void setQMatrix(std::vector<std::vector<int>>& Q);
 	void setRMatrix(std::vector<std::vector<int>>& R);
 
 	
-	//void printE
+	void printQMatrix();
 private:
 	double reward_;
 	double gamma_;
